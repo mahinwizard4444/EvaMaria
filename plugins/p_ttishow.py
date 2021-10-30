@@ -39,7 +39,7 @@ async def save_group(bot, message):
         username = bot.username
         buttons = [[
             InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{username}?start"),
-            InlineKeyboardButton('📢 Updates', url='https://t.me/EvaMariaSupport')
+            InlineKeyboardButton('📢 Updates', url='https://t.me/M76Links')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -104,7 +104,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url='https://t.me/EvaMariaSupport')
+            InlineKeyboardButton('Support', url='https://t.me/onlymovie76')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
